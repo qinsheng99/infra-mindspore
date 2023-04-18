@@ -15,6 +15,7 @@ resources:
 - tech4dx-label
 - hook-delivery
 - hook-dispatcher
+- access
 - synchronizer
 commonLabels:
   app: infrastructure-robot-gitee

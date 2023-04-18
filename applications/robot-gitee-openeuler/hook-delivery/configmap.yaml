@@ -4,8 +4,7 @@ metadata:
   name: configmap
 data:
   config.yaml: |
-    config:
-      addresses:
-      - 192.168.0.242:9092
-      - 192.168.0.222:9092
-      - 192.168.0.66:9092
+    topic: robot-gitee-openeuler
+    user_agent: robot-gitee-openeuler
+    kafka:
+      address: "${KAFKA_ADDRESS}"
