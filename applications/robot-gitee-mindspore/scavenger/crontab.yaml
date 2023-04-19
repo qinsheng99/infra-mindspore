@@ -23,7 +23,7 @@ spec:
               name: app-config
               readOnly: true
             - mountPath: /app/conf/robot-gitee/robot_token
-              subPath: robot-token
+              subPath: robot_token
               name: secret-volume
           volumes:
           - name: app-config

@@ -9,7 +9,7 @@
     "path":"/spec/template/spec/containers/0/volumeMounts/2",
     "value":{
       "mountPath":"/app/conf/robot-gitee/nlp-ak",
-      "subPath":"nlp-ak",
+      "subPath":"nlp_ak",
       "name":"secret-volume"
     }
   },
@@ -18,7 +18,7 @@
     "path":"/spec/template/spec/containers/0/volumeMounts/3",
     "value":{
       "mountPath":"/app/conf/robot-gitee/nlp-sk",
-      "subPath":"nlp-sk",
+      "subPath":"nlp_sk",
       "name":"secret-volume"
     }
   },

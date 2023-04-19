@@ -16,7 +16,7 @@ spec:
         imagePullPolicy: IfNotPresent
         volumeMounts:
         - mountPath: /app/conf/robot-gitee/robot_token
-          subPath: robot-token
+          subPath: robot_token
           name: secret-volume
         - mountPath: /app/conf/robot-gitee/app_config/
           name: app-config

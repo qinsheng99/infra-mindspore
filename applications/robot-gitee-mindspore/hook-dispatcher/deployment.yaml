@@ -19,7 +19,7 @@ spec:
           valueFrom:
             secretKeyRef:
               name: secrets
-              key: KAFKA_ADDRESS
+              key: kafka_address
         volumeMounts:
         - mountPath: /app/conf/app_config/
           name: app-config
